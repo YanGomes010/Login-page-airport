@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Rubik+80s+Fade&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+  background-color: rgb(185, 185, 185);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#form{
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  margin-bottom: 50px;
+}
+.form-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  margin: 15px 0px 105px 0px;
+  font-family: 'Rubik 80s Fade', cursive;
+  font-size: 3rem;
+color: rgb(94, 68, 35);
+}
+#medias-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+#medias-login img{
+  margin-right: 10px;
+}
+
+.form-left .form-div-lp {
+  margin-bottom: 20px;
+}
+.form-left .form-div-lp label {
+  font-size: 1.1rem;
+  display: block;
+  text-align: left;
+  width: 62%;
+  margin: auto auto 8px auto;
+}
+.form-left .form-div-lp input {
+  width: 60%;
+  border: none;
+  padding: 13px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.form-left .form-div-lp input[type="submit"]{
+  width: 200px;
+}
+.form-right {
+  width: 50%;
+  background-image: url("./business-entrepreneur-man-presenting-company-statistics-using-tablet-for-financial-presentation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,22 @@
+.form-right{
+    display: none;
+}
+.form-left{
+    width: 100%;
+    background-image: url("./business-entrepreneur-man-presenting-company-statistics-using-tablet-for-financial-presentation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit:cover;
+}
+.form-left .form-div-lp label {
+   display: none;
+  }
+.form-title{
+    color: rgb(193, 193, 193);
+    letter-spacing: 2px;
+    margin: 15px 0px 15px 0px;
+    font-size: 2.3rem;
+}
+.form-left .form-div-lp input[type="submit"]{
+    width: 50%;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" media="(max-width: 710px)" href="./style-mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-left">
+        <form id="form">
+          <div class="form-title">
+            <h2 class="form-title">Bem vindo ao mundo novo!</h2>
+          </div>
+          <div class="medias">
+            <div id="medias-login">
+              <img width="40px" src="./Facebook-Logo-PNG-Transparent-Like-17.svg" alt="" class="medias-images-login" />
+              <img width="36px" src="./google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.svg" alt="" class="medias-images-login" />
+            </div>
+          </div>
+          <div class="form-div-lp">
+            <label for="user">Insert your name:</label>
+            <input type="text" placeholder="Insert your name" id="user" />
+          </div>
+          <div class="form-div-lp">
+            <label for="password">Insert your password:</label>
+            <input
+              type="password"
+              placeholder="Insert your password"
+              id="password"
+            />
+          </div>
+          <div class="form-div-lp">
+            <input type="submit" onclick="submit()" id="submit" />
+          </div>
+        </form>
+      </div>
+      <div class="form-right"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
